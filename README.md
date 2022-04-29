@@ -135,15 +135,3 @@ To check the operation of the POC, we enter postgres and execute an update on th
 ~~~
 docker exec --tty --interactive postgres bash -c 'psql -U $POSTGRES_USER $POSTGRES_DB'
 ~~~
-
-## Architecture Diagram
-
-![](./imgs/jikko-kafka-architecture.png)  
-
-
-To see more information about the different resources used in the POC, you can review the JIRA task: 
-
-[TASK - TBK-9 ]( https://jikkosoft.atlassian.net/browse/TBK-9?atlOrigin=eyJpIjoiNzczNDJiZTI3NjIyNGYyNWJjYjE3OGQ0MDUyNTg4MGIiLCJwIjoiaiJ9)
-
-
-
